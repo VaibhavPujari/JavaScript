@@ -1,3 +1,5 @@
+
+
 const arrayNums = [10, 5, 70, 90, 100, 30, 47 ];
 
 const array = ["Bill", "Stew Jobs", "Elon Musk", "Mark", "Sundar"];
