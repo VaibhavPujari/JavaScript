@@ -40,3 +40,4 @@ for (let i = 0; i < arrayNumbers.length; i++) {
 }
 
 console.log('The sum of all elements in the array is:', sum);
+

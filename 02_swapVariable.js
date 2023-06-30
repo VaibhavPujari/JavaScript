@@ -38,3 +38,14 @@ var num2 = num3;
 var num3 = temp;
 
 console.log("After Swap num1:", num1, "num2 :", num2, "num3 :", num3);
+
+console.log(`-----Without using Third variables Swap-------`);
+
+var a = 100;
+var b = 200;
+
+a = a + b;
+b = a - b;
+a = a - b;
+
+console.log(`${a},${b}`);

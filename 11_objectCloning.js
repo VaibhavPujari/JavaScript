@@ -1,18 +1,13 @@
 
-
-
-
 let person = {
-    height: "6feet",
-    name: "Bill gates",
-    city: "Pune",
-    age: 54,
-    isMarried: true
-}
+  height: "6feet",
+  name: "Bill gates",
+  city: "Pune",
+  age: 54,
+  isMarried: true,
+};
 
-let student = {
-
-}
+let student = {};
 // student = person; // Shallow clone
 
 Object.assign(student, person);

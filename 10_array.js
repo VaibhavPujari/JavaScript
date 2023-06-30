@@ -132,6 +132,7 @@ var arrayNames = ["Anil", "Siya", "Ram" ,"Sunil", "Jenny"];
 arrayNames.length = 3;
 console.log(arrayNames);
 
+console.log(`-------Spread Operator-------`);
 //Spread Operator...
 
 var arrayNames = ["VAIBHAV","PUJARI","WELCOME","TO","JAVASCRIPT"];
@@ -141,3 +142,23 @@ console.log(...arrayNames);
 
 const newArray = [...arrayNames];
 console.log(newArray);
+
+
+console.log(`------remove duplicate element------`);
+
+let arrayOfNumbers = [1,6,5,3,11,23,4,6,3,11]
+
+function removeDuplicates(arrayOfNumbers) {
+    return arrayOfNumbers.filter( (item,index) => arrayOfNumbers.indexOf(item) === index );
+}
+  
+console.log(removeDuplicates(arrayOfNumbers));
+
+console.log(`------Remove string element------`);
+
+let arrayOfNames = ['Kamat','Memon','Nashpati','Taimur','Memon','Taimur','Andy'];
+
+function removeNames(arrayOfNames) {
+    return arrayOfNames.filter( (item,index) => arrayOfNames.indexOf(item)=== index );
+}
+console.log(removeNames(arrayOfNames));

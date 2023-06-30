@@ -2,7 +2,7 @@
 
 
 console.log(`Arrow function with no arguments and no return value`);
-let display = ()=> {
+let display = () => {
     console.log(`Display function...`);
 }
 display();

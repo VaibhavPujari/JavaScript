@@ -1,7 +1,7 @@
 
 function monthYear(monthNum){
     switch (monthNum) {
-        case 1:
+         case 1:
             console.log(`Month is : Januray number is ${monthNum}`);
             break;
             case 2:
